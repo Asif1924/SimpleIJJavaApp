@@ -97,5 +97,16 @@ public class FibTest {
         Assert.assertEquals(x,8);
     }
 
+    @Test
+    public void test_fib_7_equals_13(){
+        Fib fib = new Fib();
+
+        int x = fib.DoFib(7);
+
+
+        //Assert.assertEquals(fib,null);
+        Assert.assertEquals(x,13);
+    }
+
 }
 
